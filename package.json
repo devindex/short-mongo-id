@@ -18,6 +18,6 @@
     "url": "https://github.com/devindex/short-mongo-id/issues"
   },
   "dependencies": {
-    "bson": "^0.1.9"
+    "bson": "^1.0.4"
   }
 }
