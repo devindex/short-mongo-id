@@ -1,15 +1,23 @@
 {
-	"name": "short-mongo-id",
-	"description": "Short id generation from MongoDB ObjectId's",
-	"keywords": [
-		"mongo",
-		"mongodb",
-		"short-id",
-		"shortener"
-	],
-	"version": "0.1.1",
-	"dependencies": {
-		"bson" : "0.1.x"
-	},
-	"main": "./index.js"
+  "name": "di-short-mongo-id",
+  "version": "1.0.0",
+  "description": "Short id generation from MongoDB ObjectId's",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devindex/short-mongo-id.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "short-id",
+    "shortener"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devindex/short-mongo-id/issues"
+  },
+  "dependencies": {
+    "bson": "^0.1.9"
+  }
 }

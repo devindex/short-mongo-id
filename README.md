@@ -11,23 +11,20 @@ Install
 Use NPM:
 
 ```bash
-$ npm install short-mongo-id
-```
-
-or Git:
-
-```bash
-$ git clone git://git@github.com/treygriffith/short-mongo-id.git
+$ npm i -S di-short-mongo-id
 ```
 
 Use
 ---
 
-Pass a MongoDB ObjectId (or a string that can be converted to one) and it will return a reasonably unique short id made of `[-_a-zA-Z0-9]`.
+Pass a MongoDB ObjectId (or a string that can be converted to one) and it will return a reasonably unique short id.
 
 ```javascript
-var shortId = require('short-mongo-id');
-var id = shortId("507f191e810c19729de860ea"); // returns "iTxuMF"
+const shortId = require('di-short-mongo-id');
+
+shortId("597b3ae1bca3cc7f2c33128e"); // returns "wrxtm4nb"
+shortId("597b3afabca3cc7f2c331290"); // returns "87qum4nb"
+shortId("597b3afabca3cc7f2c331290", true); // returns "87QUM4NB"
 ```
 
 License
